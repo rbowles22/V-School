@@ -1,10 +1,14 @@
 const readline = require("readline-sync");
+
+//Making the player an object so we can assign them a key later.
 const player = {
     name: readline.question("What is your name?"),
     hasKey: false,
 }
 
 console.log("Welcome to the Escape Room " + player.name + "!");
+
+//List of choices that are displayed at different points in the game.
 
 const choices = ['left', 'right', 'straight'];
 
@@ -16,6 +20,7 @@ console.log("You are currently trapped inside of a room. You notice there is a d
 
 const index = readline.keyInSelect(choices, "Choose wisely.");
 
+//Running the master function we have created (towards the bottom).
 console.log(chooseDirection(index));
 
 //Functions for each direction
@@ -29,6 +34,7 @@ function chooseRight(){
     player.hasKey = false
     console.log("You reached in the hole and got bitten by the Texas Rattlesnake Stone Cold Steve Austin himself. You have died.")
 }
+
 //Function if you choose to go straight. Will not let you escape unless you have a key.
 function chooseStraight(){
     if(player.hasKey === true){

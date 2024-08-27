@@ -1,0 +1,126 @@
+#box {
+    display: inline-block;
+    border: 5px solid;
+    border-color: #F5C6D6;
+    background-color:#F5C6D6 ;
+    width: 96.65%;
+    height: 150px;
+    margin: 5px;
+}
+
+.div1 {
+    display: inline-block;
+    position: relative;
+    border: 5px solid;
+    border-color: #EE2E84;
+    background-color: #EE2E84;
+    width: 23%;
+    height: 150px;
+    margin: 5px;
+}
+
+.div2 {
+    display: inline-block;
+    position: relative;
+    border: 5px solid;
+    border-color: #EE2E84;
+    background-color: #EE2E84;
+    width: 23%;
+    height: 150px;
+    margin: 5px;
+}
+
+.div3 {
+    display: inline-block;
+    position: relative;
+    border: 5px solid;
+    border-color: #EE2E84;
+    background-color: #EE2E84;
+    width: 23%;
+    height: 150px;
+    margin: 5px;
+}
+
+.div4 {
+    display: inline-block;
+    position: relative;
+    border: 5px solid;
+    border-color: #EE2E84;
+    background-color: #EE2E84;
+    width: 23%;
+    height: 150px;
+    margin: 5px;
+}
+
+.div5 {
+    display: inline-block;
+    position: relative;
+    border: 5px solid;
+    border-color: #85CFD8;
+    background-color: #85CFD8;
+    width: 47.5%;
+    height: 150px;
+    margin: 5px;
+}
+
+.div6 {
+    display: inline-block;
+    position: relative;
+    border: 5px solid;
+    border-color: #85CFD8;
+    background-color: #85CFD8;
+    width: 47.6%;
+    height: 150px;
+    margin: 5px;
+}
+
+.div7 {
+    display: inline-block;
+    position: relative;
+    border: 5px solid;
+    border-color:#8DC63F;
+    background-color: #8DC63F;
+    width: 70%;
+    height: 150px;
+    margin: 5px;
+}
+
+.div8 {
+    display: inline-block;
+    position: relative;
+    border: 5px solid;
+    border-color:#E76E34;
+    background-color: #E76E34;
+    width: 25.1%;
+    height: 150px;
+    margin: 5px;
+}
+
+@media (max-width: 786px){
+    .div1 {
+        width: 100%;
+    }
+
+    .div2 {
+        width: 100%;
+    }
+
+    .div3 {
+        width: 100%;
+    }
+    .div4 {
+        width: 100%;
+    }
+    .div5 {
+        width: 100%;
+    }
+    .div6 {
+        width: 100%;
+    }
+    .div7 {
+        width: 100%;
+    }
+    .div8 {
+        width: 100%;
+    }
+}
