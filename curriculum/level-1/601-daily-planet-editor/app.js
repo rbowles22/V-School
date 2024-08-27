@@ -21,7 +21,7 @@ if (isThereKryptonite) {
 
 for (var i=0; i < enemies.length; i++) {
 var isThereKryptonite = 
-    if (condition) {
+    if(condition) {
         (i % 2 === 0)
         isThereKryptonite = true;
     } else {
